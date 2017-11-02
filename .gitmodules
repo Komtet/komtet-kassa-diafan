@@ -1,3 +1,0 @@
-[submodule "src/plugins/komtetkassa/lib"]
-	path = src/plugins/komtetkassa/lib
-	url = https://github.com/Komtet/komtet-kassa-php-sdk
