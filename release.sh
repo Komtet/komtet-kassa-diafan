@@ -5,6 +5,11 @@ if [ -z "$1" ]; then
     exit 1;
 fi;
 
-filename="komtet-kassa-$1.zip";
+composer install
+rm -rf src/plugins/komtetkassa/lib/*
+cp -R vendor/* src/plugins/komtetkassa/lib/
+
+filename="dist/komtet-kassa-diafan-$1.zip";
 rm -f $filename;
-zip -r $filename src;
+cd src
+zip -r "../$filename" *;
