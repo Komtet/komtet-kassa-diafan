@@ -17,3 +17,5 @@
 И заполнить необходимые поля:
 
 ![kassa-settings](./images/04-kassa-settings.png)
+
+Success и Fail URL для КОМТЕТ Касса: `адрес-вашего-сайта/komtetkassa/report`
