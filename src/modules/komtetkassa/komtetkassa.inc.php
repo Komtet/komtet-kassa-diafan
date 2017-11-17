@@ -135,8 +135,7 @@ class Komtetkassa_inc extends Diafan
         $result = DB::query_result("
             SELECT value FROM {shop_order_param_element} AS e
             INNER JOIN {shop_order_param} AS p ON p.id=e.param_id AND p.type='email'
-            WHERE e.element_id=%d
-        ", $order["id"]);
+            WHERE e.element_id=%d ", $orderID);
         return $result ? $result : '';
     }
 
