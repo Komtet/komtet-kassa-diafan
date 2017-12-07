@@ -230,10 +230,10 @@ class Komtetkassa_inc extends Diafan
             $row['discount'] += $order_discount_part;
 
             $result[] = new Position(
-                $row['name'],
+                html_entity_decode($row['name']),
                 (float) $row['price'],
                 (float) $row['count'],
-                floatval($row['summ'] - $row['discount']),
+                (float) $row['summ'],
                 (float) $row['discount'],
                 $vat
             );
