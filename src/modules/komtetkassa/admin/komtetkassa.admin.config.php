@@ -19,7 +19,7 @@ class Komtetkassa_admin_config extends Frame_admin
             ),
             'secret_key' => array(
                 'type' => 'text',
-                'name' => 'Секретный ключ',
+                'name' => 'Секретный ключ магазина',
                 'help' => 'Выдаётся при регистрации магазина'
             ),
             'shop_id' => array(
