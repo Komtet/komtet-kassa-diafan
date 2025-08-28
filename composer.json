@@ -1,7 +1,0 @@
-{
-    "name": "komtet/kassa-diafan",
-    "description": "KOMTET Kassa module for DIAFAN.CMS",
-    "require": {
-        "komtet/kassa-sdk": "^0.5.2"
-    }
-}

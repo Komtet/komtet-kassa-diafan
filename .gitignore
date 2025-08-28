@@ -1,5 +1,5 @@
-/vendor/
-composer.lock
-docker_env/php**
-docker_env/data**
-composer.phar
+.DS_Store
+/docker_env/php/
+dist
+php
+data
