@@ -167,6 +167,9 @@ class Cashregister_komtetkassa extends Diafan
                 case 20:
                     $vatRate = Vat::RATE_120;
                     break;
+                case 22:
+                    $vatRate = Vat::RATE_122;
+                    break;
             }
         }
 
